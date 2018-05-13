@@ -1,0 +1,9 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/Merlin/code/relay/relay-howtogql",
+			"folder_exclude_patterns": ["node_modules"]
+		}
+	]
+}

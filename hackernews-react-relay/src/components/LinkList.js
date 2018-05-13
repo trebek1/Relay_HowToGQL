@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 import Link from './Link'
-import {
-  createFragmentContainer,
-  graphql
-} from 'react-relay'
+import { createFragmentContainer, graphql } from 'react-relay'
 
 class LinkList extends Component {
 
@@ -15,7 +12,7 @@ class LinkList extends Component {
       )}
 	    </div>
 	  )
-	}
+	};
 }
 
 export default createFragmentContainer(LinkList, graphql`
